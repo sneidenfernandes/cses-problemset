@@ -1,8 +1,8 @@
 #include <iostream>
 using namespace std;
 
-// Recursive solution 
-// note: keep in mind that using the int type in the function breaks the code in practice, 
+
+// Recursive Solution
 
 void wierdAlgorithmRecursive(long long n){
     cout << n << " ";
@@ -17,6 +17,8 @@ void wierdAlgorithmRecursive(long long n){
 }
 
 
+// Iterative Solution
+
 void wierdAlgorithmIterative(long long n){
     
     while (n > 1){
@@ -30,6 +32,8 @@ void wierdAlgorithmIterative(long long n){
     cout << n << endl;
 
 }
+
+// note: use the long long type as "n = 3 * n * 1" operation wil outputs numbers that exceed the range of the int type.
 
 int main() {
    long long n;
