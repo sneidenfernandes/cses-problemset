@@ -41,7 +41,7 @@ using namespace std;
 // 2nd approach would be to chunk all of the substrings sepreately and if count of a substring of the same letter already exists in the map, make sure the max of the two is inputed in the map
 
 
-// 3rd approad: Ditch the map, you don't need a map of all the string, you just 
+// 3rd approad: Ditch the map. It was overkill.
 
 
 int repititions(string dna){
